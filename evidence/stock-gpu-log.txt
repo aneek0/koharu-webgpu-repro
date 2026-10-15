@@ -1,0 +1,2 @@
+[258514:258514:1016/012013.427400:WARNING:gpu/vulkan/vulkan_function_pointers.cc:22] Failed to bind vulkan entrypoint: vkDestroySurfaceKHR
+[258514:258514:1016/012013.427538:ERROR:gpu/ipc/service/gpu_init.cc:1442] Failed to create and initialize Vulkan implementation.

@@ -1,0 +1,11 @@
+[package]
+name = "koharu-webgpu-repro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tauri = { git = "https://github.com/tauri-apps/tauri", rev = "1991873f5e2baa68773f21465f61baa93077498f", default-features = false }
+tauri-runtime-cef = { git = "https://github.com/tauri-apps/tauri", rev = "1991873f5e2baa68773f21465f61baa93077498f" }
+
+[build-dependencies]
+tauri-build = { git = "https://github.com/tauri-apps/tauri", rev = "1991873f5e2baa68773f21465f61baa93077498f" }
