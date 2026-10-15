@@ -22,6 +22,13 @@ fn main() {
             ("--enable-unsafe-webgpu", None),
             ("use-angle", Some("vulkan")),
             ("--ozone-platform", Some("x11")),
+        ])
+        // PR-16210 branch only: the same WebGPU/ANGLE switches, but delivered
+        // to every child process through OnBeforeChildProcessLaunch. This
+        // method does not exist on stock v3 — that is the PR.
+        .child_process_command_line_args([
+            ("--enable-unsafe-webgpu", None),
+            ("use-angle", Some("vulkan")),
         ]);
     tauri::Builder::<tauri_runtime_cef::CefRuntime>::new()
         .runtime(cef)

@@ -9,3 +9,13 @@ tauri-runtime-cef = { git = "https://github.com/tauri-apps/tauri", rev = "199187
 
 [build-dependencies]
 tauri-build = { git = "https://github.com/tauri-apps/tauri", rev = "1991873f5e2baa68773f21465f61baa93077498f" }
+
+# PR-16210 branch: verify the fix against the PR branch locally.
+# The [patch] section below redirects the same git deps to the local checkout
+# at /home/aneeko/tauri (branch pr-16210). Keep the stock deps above intact:
+# this branch only adds the patch and the child_process_command_line_args call.
+[patch."https://github.com/tauri-apps/tauri"]
+tauri = { path = "/home/aneeko/tauri/crates/tauri" }
+tauri-build = { path = "/home/aneeko/tauri/crates/tauri-build" }
+tauri-runtime-cef = { path = "/home/aneeko/tauri/crates/tauri-runtime-cef" }
+tauri-utils = { path = "/home/aneeko/tauri/crates/tauri-utils" }

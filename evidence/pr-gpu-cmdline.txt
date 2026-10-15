@@ -1,0 +1,9 @@
+=== GPU process PID 266181 PR-16210 branch ===
+/home/aneeko/.cache/repro-16210/debug/koharu-webgpu-repro
+--type=zygote
+--no-zygote-sandbox
+--enable-crash-reporter=,
+--change-stack-guard-on-fork=enable
+--user-data-dir=/home/aneeko/.cache/rs.koharu.webgpu-repro/cef
+--enable-unsafe-webgpu
+--use-angle=vulkan

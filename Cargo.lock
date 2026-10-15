@@ -3822,7 +3822,6 @@ checksum = "adb6935a6f5c20170eeceb1a3835a49e12e19d792f6dd344ccc76a985ca5a6ca"
 [[package]]
 name = "tauri"
 version = "3.0.0-alpha.5"
-source = "git+https://github.com/tauri-apps/tauri?rev=1991873f5e2baa68773f21465f61baa93077498f#1991873f5e2baa68773f21465f61baa93077498f"
 dependencies = [
  "anyhow",
  "bytes",
@@ -3868,7 +3867,6 @@ dependencies = [
 [[package]]
 name = "tauri-build"
 version = "3.0.0-alpha.4"
-source = "git+https://github.com/tauri-apps/tauri?rev=1991873f5e2baa68773f21465f61baa93077498f#1991873f5e2baa68773f21465f61baa93077498f"
 dependencies = [
  "anyhow",
  "cargo_toml",
@@ -3890,7 +3888,6 @@ dependencies = [
 [[package]]
 name = "tauri-codegen"
 version = "3.0.0-alpha.4"
-source = "git+https://github.com/tauri-apps/tauri?rev=1991873f5e2baa68773f21465f61baa93077498f#1991873f5e2baa68773f21465f61baa93077498f"
 dependencies = [
  "base64 0.23.1",
  "ico",
@@ -3915,7 +3912,6 @@ dependencies = [
 [[package]]
 name = "tauri-macros"
 version = "3.0.0-alpha.4"
-source = "git+https://github.com/tauri-apps/tauri?rev=1991873f5e2baa68773f21465f61baa93077498f#1991873f5e2baa68773f21465f61baa93077498f"
 dependencies = [
  "heck",
  "proc-macro2",
@@ -3928,7 +3924,6 @@ dependencies = [
 [[package]]
 name = "tauri-runtime"
 version = "3.0.0-alpha.4"
-source = "git+https://github.com/tauri-apps/tauri?rev=1991873f5e2baa68773f21465f61baa93077498f#1991873f5e2baa68773f21465f61baa93077498f"
 dependencies = [
  "cookie",
  "dpi",
@@ -3948,7 +3943,6 @@ dependencies = [
 [[package]]
 name = "tauri-runtime-cef"
 version = "3.0.0-alpha.6"
-source = "git+https://github.com/tauri-apps/tauri?rev=1991873f5e2baa68773f21465f61baa93077498f#1991873f5e2baa68773f21465f61baa93077498f"
 dependencies = [
  "base64 0.22.1",
  "cef",
@@ -3986,7 +3980,6 @@ dependencies = [
 [[package]]
 name = "tauri-utils"
 version = "3.0.0-alpha.4"
-source = "git+https://github.com/tauri-apps/tauri?rev=1991873f5e2baa68773f21465f61baa93077498f#1991873f5e2baa68773f21465f61baa93077498f"
 dependencies = [
  "anyhow",
  "cargo_metadata 0.19.2",
